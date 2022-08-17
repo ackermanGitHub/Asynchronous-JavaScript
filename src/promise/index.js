@@ -11,7 +11,7 @@ const countCows = new Promise((resolve, reject) => {
         reject('There are no cows on the farm');
     }
 })
-countCows.then(result => {
+countCows.then((result) => {
     console.log(result);
 }).catch(error => {
     console.log(error);
